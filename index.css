@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: AvenirNext;
+  height: 100%;
+}
+.left-wall {
+  background-color: #DA593F;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16.74%;
+  height: 100%;
+}
+.right-wall {
+  background-color: #DA593F;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 16.74%;
+  height: 100%;
+}
+.content {
+  position: relative;
+}
+.top-banner {
+  position: absolute;
+  background-color: #F6F5AE;
+  top: 0;
+  bottom: 85.35%;
+  left: 16.74%;
+  right: 16.74%;
+  height: 150px;
+  /* width: 66.52%; */
+  text-align: center;
+}
+.logo {
+  line-height: 105px;
+  position: absolute;
+  height: 107px;
+  left: 45.69%;
+  right: 45.49%;
+  top: calc(50% - 107px/2 - 436.5px);
+  
+  /* font-family: SavoyeLetPlain; */
+  /* font-size: 90px; */
+  line-height: 105px;
+  text-align: right;
+  
+  color: #565554;x
+}
+.main-msg {
+  position: absolute;
+  height: 55px;
+  left: 35.76%;
+  right: 35.76%;
+  top: calc(50% - 55px/2 - 284.5px);
+
+  /* font-family: AvenirNext; */
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+
+  color: #565554;
+}
+.sub-msg {
+  position: absolute;
+  height: 41px;
+  left: 31.88%;
+  right: 31.88%;
+  top: calc(50% - 41px/2 - 221.5px);
+
+  /* font-family: AvenirNext; */
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #565554;
+}
